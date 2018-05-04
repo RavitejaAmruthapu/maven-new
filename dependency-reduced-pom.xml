@@ -96,8 +96,9 @@
   <properties>
     <releases.distribution.url>${repository.server.root}/devops-releases/</releases.distribution.url>
     <snapshots.distribution.url>${repository.server.root}/devops-snapshots/</snapshots.distribution.url>
+    <sonar.host.url>http://104.155.152.144:9000</sonar.host.url>
     <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
-    <repository.server.root>http://13.232.27.50:8081/repository</repository.server.root>
+    <repository.server.root>http://13.127.237.255:8081/repository</repository.server.root>
   </properties>
 </project>
 

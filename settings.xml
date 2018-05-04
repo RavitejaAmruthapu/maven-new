@@ -21,7 +21,7 @@
       <id>internalMavenReleaseRepository</id>
       <mirrorOf>*</mirrorOf>
       <name>internalMavenReleaseRepository</name>
-      <url>http://13.232.27.50:8081/repository/devops-repository-group</url>
+      <url>http://13.127.237.255:8081/repository/devops-repository-group</url>
     </mirror>   
   </mirrors>
 
@@ -48,7 +48,7 @@
             <updatePolicy>never</updatePolicy>
             <checksumPolicy>fail</checksumPolicy>
           </snapshots>
-          <url>http://13.232.27.50:8081/repository/devops-snapshots</url>
+          <url>http://13.127.237.255:8081/repository/devops-snapshots</url>
           <layout>default</layout>
         </repository>
       </repositories>    
@@ -69,7 +69,7 @@
             <updatePolicy>never</updatePolicy>
             <checksumPolicy>fail</checksumPolicy>
           </snapshots>
-          <url>http://13.232.27.50:8081/repository/devops-releases</url>
+          <url>http://13.127.237.255:8081/repository/devops-releases</url>
           <layout>default</layout>
         </repository>
       </repositories>    
@@ -80,7 +80,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <sonar.host.url>http://35.193.53.196:9000</sonar.host.url>
+                <sonar.host.url>http://104.155.152.144:9000</sonar.host.url>
                 <sonar.issueReport.html.enable>true</sonar.issueReport.html.enable>
                 <sonar.analysis.mode>preview</sonar.analysis.mode>
             </properties>
