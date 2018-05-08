@@ -16,7 +16,7 @@
            <activeByDefault>true</activeByDefault>
         </activation>
         <properties>
-            <sonar.host.url>http://35.193.53.196:9000</sonar.host.url>
+            <sonar.host.url>http://35.194.45.230:9000</sonar.host.url>
             <sonar.issueReport.html.enable>true</sonar.issueReport.html.enable>
             <sonar.analysis.mode>preview</sonar.analysis.mode>
          </properties>        
@@ -38,7 +38,7 @@
     </distributionManagement>
 
 <properties>
-        <repository.server.root>http://13.127.237.255:8081/repository</repository.server.root>
+        <repository.server.root>http://13.232.8.82:8081/repository</repository.server.root>
         <releases.distribution.url>
             ${repository.server.root}/devops-releases/
         </releases.distribution.url>
@@ -47,7 +47,7 @@
         </snapshots.distribution.url>
         <!-- This property will be set by the Maven Dependency plugin -->
         <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
-        <sonar.host.url>http://104.155.152.144:9000</sonar.host.url>
+        <sonar.host.url>http://35.194.45.230:9000</sonar.host.url>
 </properties>
 
   <dependencies>
